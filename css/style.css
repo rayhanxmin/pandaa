@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main1{
+    margin: 0 auto;
+    max-width: 800px;
+    
+}
+.navbar{
+    display: block;
+    margin-top: -10px;
+}
+.logo{
+    width: 80px;
+}
+.row{
+    background-color: #FEEAE9;
+    border-radius: 30px;
+    padding: 50px;
+}
+#carouselExampleControls{
+    margin-top: 50px;
+}
+.price{
+    color: rgb(245, 13, 194);
+}
+.btn{
+    background-color: rgb(245, 13, 194);  
+    width: 150px;
+}
+.btn:hover{
+    border: 1px solid rgb(245, 13, 194);
+}
+.col-md-7{
+    margin-top: 50px;
+}
+.clr{
+    margin-top: 20px;
+    color: rgb(245, 13, 194);
+}
+.sari, .nari1, .vari2{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.img1{
+    width: 70px;
+}
+.col-md-4{
+    margin-left: 2px;
+}
+.Categories{
+    display: flex;
+    justify-content: space-between;
+    
+    box-sizing: border-box;
+}
+.sari{
+    background-image: linear-gradient(to right, red , rgb(255, 102, 0));
+    border-radius: 10px;
+}
+.nari1{
+    background-image: linear-gradient(to right, rgb(255, 170, 0) , yellow);
+    border-radius: 10px;
+}
+.vari2{
+    background-image: linear-gradient(to right, rgb(5, 18, 197) , rgb(120, 103, 248));
+    border-radius: 10px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;  
+}
+.card-group{
+    justify-content: space-between;
+}
+.bal, .bal1{
+    margin-right: 10px;
+}
+.bal1{
+    border-radius: 50%;
+}
+.last{
+    padding: 80px 180px;
+}
+.form-control{
+    border-color: rgb(245, 13, 194);
+}
+.last{
+    background-color: #FEEAE9;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+small{
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .d-block{
+        height: 200px;
+        width: 50px;
+    }
+    .align-items-center{
+        display: block;
+        width: 100%;
+    }
+    .Categories{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .card{
+        width: 350px;
+        margin: 0 auto;
+
+    }
+    .sari{
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .nari1{
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .vari2{
+        display: flex;
+        margin-bottom: 15px;
+    }
+    input{
+        display: block;
+    }
+    .sec{
+        height: 300px;
+        width: 500px;
+    }
+    .last5{
+        display: block;
+    }
+}
